@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "type": "description",
+    "question": "Welcome to Our User Survey on Explainable AI and Decision Trees",
+    "description": "<p>Thank you for participating in our research survey! This study is part of a thesis project focused on Explainable AI, specifically exploring decision trees.</p>\n<p>In this survey, you will be represented with <b>4 different datasets.</b></p>\n<p>For each dataset you will be provided by a description and a decision tree will be displayed.</p>\n<p>Your task is to classify <b>5 samples</b> of the dataset based on the decision tree displayed.</p>\n<p><b>During the classification tasks, we will measure the time taken for each classification. Please proceed efficiently and avoid unnecessary delays.</b></b></p>\n<p>After that you will be asked to measure the confidence of your answers, the trust you have in the model and provide a small description of the model.</p>\n<p>Feel free to add any comments you want!</p>\n<p>Your participation in this survey is <b>entirely voluntary.</b> You are free to stop at any time without any consequences. There is no reward or profit for participating in this survey. </p>\n<p>Your responses will greatly contribute to our research and understanding of Explainable AI.</p>",
+    "image_src": ""
+  },
+  {
+    "id": 2,
+    "type": "description",
+    "question": "Play Tennis Dataset Example",
+    "description": "<p>The Play Tennis dataset is a simple and classic example used in machine learning to demonstrate decision tree algorithms. This dataset contains information about weather conditions and whether or not tennis was played on a given day. The goal is to predict if tennis will be played based on certain weather conditions.</p>\n<p><b>Attributes:</b></p>\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"5\">\n  <tr>\n    <th>Attribute</th>\n    <th>Description</th>\n  </tr>\n  <tr>\n    <td><b>Outlook</b></td>\n    <td>The weather outlook, which can be 'Sunny', 'Overcast', or 'Rain' (categorical).</td>\n  </tr>\n  <tr>\n    <td><b>Temperature</b></td>\n    <td>The temperature on that day, categorized as 'Hot', 'Mild', or 'Cool' (categorical).</td>\n  </tr>\n  <tr>\n    <td><b>Humidity</b></td>\n    <td>The humidity level, either 'High' or 'Normal' (categorical).</td>\n  </tr>\n  <tr>\n    <td><b>Windy</b></td>\n    <td>Whether the wind is 'True' or 'False' (categorical).</td>\n  </tr>\n</table>\n<p><b>Goal:</b></p>\n<p>Whether tennis was played or not, represented as 'Yes' or 'No'.</p>\n\n<p>In this example, you will be given various weather conditions, and your task is to determine whether tennis will be played based on the provided decision tree. Please analyze the decision tree carefully and classify each sample accordingly.</p>\n<p>Before starting the classification task, <b>please use the zoom functionality</b> to examine the decision tree and understand how it works.</p>\n<p>Remember, <b>this is an example</b> Take all the time necessary to get familiar with the process</p>",
+    "image_src": ""
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "question": "Will tennis be played under these weather conditions?",
+    "description": "<p>You can hover and use the mouse for zooming or the buttons:</p><p>The <span style=\"color: green;\">green button</span> zooms in</p>\n<p>The <span style=\"color: red;\">red button</span> zooms out</p>\n<p>The <span style=\"color: #d0d000;\">yellow button</span> reverts zooming</p>\n<p>You can also zoom in and out by clicking.</p>\n<p>In the decision tree, you may encounter nodes with splits that include a category labeled <b>\"Other\"</b>. This category represents any value that is not explicitly listed in the other split categories. For example, if you see a node with the attribute \"Temperature\" and splits into \"Hot\" and \"Other,\" any temperature value that is not \"Hot\" should follow the \"Other\" branch.</p>\n<p>Example of classification data:</p>\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"5\">\n    <tr>\n      <th>Outlook</th>\n      <th>Temperature</th>\n      <th>Humidity</th>\n      <th>Windy</th>\n    </tr>\n    <tr>\n      <td>Sunny</td>\n      <td>Hot</td>\n      <td>High</td>\n      <td>False</td>\n    </tr>\n  </table>",
+    "options": ["Yes", "No"],
+    "image_src": "play_tennis.drawio.png"
+  },
+  {
+    "id": 4,
+    "type": "description",
+    "question": "Survey is About to Begin",
+    "description": "<p>Thank you for completing the example classification task.</p>\n<p>The survey will start from the next question.</p>\n<p>Remember, the <b>time taken for each classification will be measured</b>, so proceed efficiently.</p>",
+    "image_src": ""
+  }
+]
